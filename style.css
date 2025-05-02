@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    transition: background-image 0.8s ease-in-out;
+  }
+  
+  .iphone-frame {
+    width: 375px;
+    height: 667px;
+    background: #000;
+    border: 16px solid #ccc;
+    border-radius: 50px;
+    box-shadow: 0 0 30px rgba(255, 20, 147, 0.8);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .screen {
+    background-image: url("backgrounds/nailBG.png"); /* your chosen image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    border-radius: 40px;
+    padding: 30px 20px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 20px hotpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: deeppink;
+    text-shadow: 1px 1px white;
+  }
+  
+  .emoji {
+    font-size: 4rem;
+    margin: 30px 0 20px;
+  }
+  
+  .result {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  button {
+    font-size: 1.1rem;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(45deg, hotpink, pink);
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px hotpink;
+    transition: transform 0.2s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  .sparkle {
+    position: absolute;
+    font-size: 1.5rem;
+    animation: sparkleFade 1s ease-out forwards;
+  }
+  
+  @keyframes sparkleFade {
+    0% { opacity: 1; }
+    100% { opacity: 0; transform: scale(2); }
+  }
+
+  
