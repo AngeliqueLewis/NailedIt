@@ -10,9 +10,6 @@ Randomized Picker: Not sure what to choose? Let the app randomly decide your nai
 
 User-Friendly Interface: Simple, intuitive, and totally girly – just tap, choose, and glam up your nails!
 
-📸 Screenshots
-Here’s a preview of how NailedIT will look when you’re ready to pamper yourself:
-
 
 💡 How It Works
 Open the app and navigate to the Nail Color section.
