@@ -10,6 +10,7 @@ Randomized Picker: Not sure what to choose? Let the app randomly decide your nai
 
 User-Friendly Interface: Simple, intuitive, and totally girly – just tap, choose, and glam up your nails!
 
+View it LIVE here -->https://younailedit.netlify.app/
 
 💡 How It Works
 Open the app and navigate to the Nail Color section.
@@ -21,7 +22,7 @@ Browse through unique and fun nail design options.
 Once you’ve picked your favorite, save your design and get ready to show it off!
 
 🛠️ Technologies Used
-SwiftUI for the sleek and user-friendly design.
+HTML, CSS, JavaScript
 
 Core Data for saving and retrieving your chosen designs.
 
@@ -33,8 +34,6 @@ bash
 Copy
 Edit
 git clone https://github.com/AngeliqueLewis/NailedIt.git
-2. Open in Xcode:
-Open the project folder in Xcode.
 
 Run on your simulator or device.
 
